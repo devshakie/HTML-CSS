@@ -3,9 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>shop</title>
+    <link rel="stylesheet" href="shop.css">
 </head>
 <body>
+    <nav>
+        <div class="navlinks">
+            <img src="./images/flower.png" alt="flower" height="40px" width="40px">
+       
+            <ul>
+                <li>Home</li>
+                <li>Shop</li>
+                <li>Contact</li>
+                <li>Help</li>
+            </ul> 
+        
+        <div class="account">
+            <a href="">Account</a>
+            <div class="cart">
+                <img src="./images/padlock.png" alt="padlock icon" width="20px" height="20px" >
+                <span>3 items</span>
+            </div> 
+            <div class="profile">
+                <img src="./images/girl.png" alt="Profile Image" width="30px" width="30px" >
+            </div>
+           
+        </div>
+    </nav>  
+    <main>
+        <div class="account-container">
+            <div class="form">
+                <section class="form-top">
+                    <span>Account</span>
+                    <img src="./images/remove.png"  width="13px" width="13px" >
+                    <img src="./images/checked.png" width="13px" width="13px" >
+                    <img src="./images/remove.png"  width="13px" width="13px" >
+            
+                    <span>Shipping</span>
+                    <img src="./images/remove.png"  width="13px" width="13px" >
+                    <img src="./images/checked.png"  width="13px" width="13px" >
+                    <img src="./images/remove.png"  width="13px" width="13px" >
+                    <span>Payment</span>
+                </section>
+                <h4>Account Details</h4>
+                <form>
+    
+                    <div class="input">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" placeholder="Email@myemail.com">
+                    </div>
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="********">
+                    </div>
+                    <div class="register">
+                        <p class="register-account">Register for account</p>
+                        <button type="submit" class="login">Login</button>
+                    </div>
+                    <hr>
+                    <div class="register">
+                        <p class="cancel-order">Cancel order</p>
+                        <button type="shipping-details" class="login">Shipping Details</button>
+                    </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <div class="product">
+                <img src="./images/headphones.jpeg" alt="Sony wireless headphones" width="100%" height="100px">
+                <div class="product-info">
+                    <div class="productinfo">
+                    <span>Sony wireless headphones</span>
+                    
+                    <div class="quantity">
+                        <button type="button">-</button>
+                        <input type="text" value="1">
+                        <button type="button">+</button>
+                    </div>
+                    </div>
+                    <span class="price">£320.45</span>
+                </div>
+            </div>
+            <div class="discount">
+                <label for="discount-code">Gift Card / Discount code</label>
+                <div class="input">
+                    <input type="text" id="discount-code">
+                    <button type="button">Apply</button>
+                </div>
+                
+            </div>
+            <div class="summary-details">
+                <div class="subtotal">
+                    <span>Sub total</span>
+                    <span>£316.55</span>
+                </div>
+                <div class="tax">
+                    <span>Tax</span>
+                    <span>£3.45</span>
+                </div>
+                <div class="shipping">
+                    <span>Shipping</span>
+                    <span class="free">Free</span>
+                </div>
+                <div class="total">
+                    <span>Total</span>
+                    <span>£320.45</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </main>
+    
+    
     
 </body>
 </html>
