@@ -1,0 +1,95 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px 40px;
+    
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+     
+ }
+ li{
+     display: inline;
+     justify-content: space-between;
+     padding: 20px;
+     color: grey;
+     font-weight:20px ;  
+ }
+ .arrow-li{
+    display: inline;
+     padding: 0px !important;
+     color: grey;
+     font-weight:20px ; 
+ }
+ .account{
+    display: flex;
+    align-items: center;
+     color: grey;
+     gap: 20px;
+     font-weight:20px; 
+ }
+ .account a{
+    text-decoration: none;
+    color: grey;
+    font-weight:20px ; 
+ }
+ .account button{
+   
+    color: grey;
+    border-color: grey;
+    padding:6px ;
+    border-radius:10px ;
+ }
+ .purpose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 70px;
+    padding-left: 150px;
+    
+    & > *{
+        flex: 1;
+    }
+ }
+ .rest{
+    color: grey;
+ }
+ .bold{
+    font-size: 60px;
+    font-weight: 700;
+    
+ }
+ .purpose button{
+
+    padding:9px;
+    background-color:black;
+    color: white;
+    border-radius: 15px;
+    width: 100px;
+    margin-top: 40px;
+   
+ }
+ .desktop {
+   padding-right: 200px;
+
+    
+ }
+ .images{
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap:9px;
+ }
+ 
+ 

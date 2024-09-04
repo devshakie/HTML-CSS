@@ -10,6 +10,10 @@ main {
     display: flex;
     justify-content: center;
     padding: 40px;
+
+    & > *{
+        flex: 1;
+    }
 }
 .navlinks{
     display: flex;
@@ -58,10 +62,9 @@ a{
     border-radius: 8px;
     margin-top: 40px;
     margin-left: 40px;
-    height: 79vh;
-    width: 65vw;
+    padding: 40px; 
     justify-content: center;
-    padding-top: 30px;
+    
 }
 
 
@@ -84,15 +87,21 @@ a{
     
 }
 
-.input input {
-    width: 100%;
+.input{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+input {
+    display: grid;
     margin-top: 9px;
     padding: 10px;
     background-color: rgb(213, 218, 231);
     border: 1px solid  rgb(213, 218, 231);
     border-radius: 5px;
 }
-
 .register {
     display: flex;
     gap: 10px;
@@ -125,7 +134,7 @@ a{
 }
 hr{
     color: rgb(175, 173, 173);
-    width: 560px;
+    
     align-items: center;
     justify-content: center;
     margin-top: 80px;
@@ -137,8 +146,6 @@ hr{
     border-radius: 8px;
     margin-top: 40px;
     margin-left: 40px;
-    height: 74vh;
-    width: 40vw;
     padding: 40px; 
 }
 .order-actions {
