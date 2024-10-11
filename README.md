@@ -28,6 +28,6 @@ To view and explore the projects:
 cd HTML-CSS/assignment1  # or any other assignment folder
 
 ### Contact   
-For any questions or suggestions, feel free to contact me via [LinkedIn](https://www.linkedin.com/in/luckshakira-kanana/)
+For any questions or suggestions, feel free to contact me via [LinkedIn](https://www.linkedin.com/in/luckshakira-kanana-0733b923b)
 
 
