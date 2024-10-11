@@ -27,6 +27,7 @@ To view and explore the projects:
 2.Navigate to the folder of the assignment you want to view:
 cd HTML-CSS/assignment1  # or any other assignment folder
 
-Contact
-For any questions or suggestions, feel free to contact me via LinkedIn.
+### Contact   
+For any questions or suggestions, feel free to contact me via [LinkedIn](https://www.linkedin.com/in/luckshakira-kanana/)
+
 
